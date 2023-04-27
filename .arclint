@@ -1,0 +1,17 @@
+{
+  "linters": {
+    "pylint": {
+      "type": "pylint",
+      "include": "(\\.py$)",
+      "pylint.config": "/tools/pylint/.pylintrc",
+      "severity": {
+        "W1203": "disabled",
+        "E0401": "disabled"
+      }
+    },
+    "json": {
+      "type": "json",
+      "include": "(\\.json$)"
+    }
+  }
+}
